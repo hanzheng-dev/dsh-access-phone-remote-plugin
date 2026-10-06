@@ -1,5 +1,5 @@
 {
-  "name": "dsj-open",
+  "name": "dsh-access-phone-remote",
   "version": "1.0.0",
   "description": "把手机变成你电脑的遥控器：消息推送 / 文件传输 / 位置服务。数据全部留在自己电脑上。 · Turn your phone into a remote console for your PC: push, file transfer, location. Everything stays on your own machine.",
   "type": "module",

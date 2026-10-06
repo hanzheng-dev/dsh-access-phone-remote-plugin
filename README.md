@@ -7,12 +7,12 @@
 > 📦 **这是 dsh 插件本体**，单独一个仓库是为了支持直接从 GitHub 安装
 > （`dsh plugin add` 支持 git 源，但没法指定"装仓库的某个子目录"）。
 > 完整项目（含手机网页、Android 客户端、文档、70+ 条踩坑记录）在
-> **[hanzheng-dev/dsj-open](https://github.com/hanzheng-dev/dsj-open)**。
+> **[hanzheng-dev/dsh-access-phone-remote](https://github.com/hanzheng-dev/dsh-access-phone-remote)**。
 
 ## 安装
 
 ```sh
-dsh plugin --profile web add github:hanzheng-dev/dsj-open-plugin
+dsh plugin --profile web add github:hanzheng-dev/dsh-access-phone-remote-plugin
 ```
 
 装完在 **设置 → 插件** 里能看到它，里面是服务状态、启动/停止、手机访问地址。

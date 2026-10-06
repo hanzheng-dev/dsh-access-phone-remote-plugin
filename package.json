@@ -1,0 +1,51 @@
+{
+  "name": "dsj-open",
+  "version": "1.0.0",
+  "description": "把手机变成你电脑的遥控器：消息推送 / 文件传输 / 位置服务。数据全部留在自己电脑上。 · Turn your phone into a remote console for your PC: push, file transfer, location. Everything stays on your own machine.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Mare S. Ephemeral <hanzheng-dev@users.noreply.github.com>",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "self-hosted",
+    "remote",
+    "mobile",
+    "push",
+    "tailscale",
+    "phone",
+    "pc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanzheng-dev/dsj-open-plugin.git"
+  },
+  "homepage": "https://github.com/hanzheng-dev/dsj-open-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/hanzheng-dev/dsj-open-plugin/issues"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}
